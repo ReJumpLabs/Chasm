@@ -38,4 +38,4 @@ docker pull chasmtech/chasm-scout:latest
 docker run -d --restart=always --env-file ./.env -p 3001:3001 --name scout chasmtech/chasm-scout
 echo "DA CHAY XONG..."
 
-echo "CHAY LENH cat /chasm/.env ROI UPDATE VO SHEET DI ..."
+echo "CHAY LENH " cat ./chasm/.env  " ROI UPDATE VO SHEET DI ..."
